@@ -1,0 +1,24 @@
+use_gpu: True
+torch_dtype: "fp16"
+variant: "fp16"
+
+zoe_path: "lllyasviel/Annotators"
+vae_path: "madebyollin/sdxl-vae-fp16-fix"
+controlnets:
+    destitech:
+        pretrained_model_name_or_path: "destitech/controlnet-inpaint-dreamer-sdxl"
+        variant: "fp16"
+    diffusers:
+        pretrained_model_name_or_path: "diffusers/controlnet-zoe-depth-sdxl-1.0"
+
+sdxlcn_path: "SG161222/RealVisXL_V4.0"
+sdxlcn_guidance_scale: 6.5
+sdxlcn_num_inference_steps: 25
+sdxlcn_controlnet_conditioning_scale: [0.5, 0.8]
+sdxlcn_control_guidance_end: [0.9, 0.6]
+
+sdxlip_path: "OzzyGT/RealVisXL_V4.0_inpainting"
+sdxlip_mask_blur_factor: 20
+sdxlip_guidance_scale: 10.0
+sdxlip_strength: 0.8
+sdxlip_num_inference_steps: 30

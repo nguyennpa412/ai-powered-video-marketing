@@ -1,0 +1,4 @@
+use_gpu: True
+repo_id: "vdo/stable-video-diffusion-img2vid-xt-1-1"
+filename: "svd_xt_1_1.safetensors"
+version: "svd_xt_1_1"

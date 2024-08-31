@@ -1,0 +1,2 @@
+model_path: "fal/AuraSR-v2"
+use_gpu: True
