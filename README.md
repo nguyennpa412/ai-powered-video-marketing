@@ -5,9 +5,19 @@ AI-powered pipeline to create marketing video from product image.
 ## 1. Tutorial
 
 - Recommended testing environment: **Google Colab** (since the pipeline consumes lots of GPU)
-  - Enhance image: T4 GPU
-  - Generate scene: T4 GPU
-  - Generate video: A100 GPU
+  - Kernel Runtime:
+    - Enhance image: T4 GPU
+    - Generate scene: T4 GPU
+    - Generate video: A100 GPU
+  - Folder structure:
+```
+    ├── content
+        ├── assets
+        ├── configs
+        └── modules
+```
+
+
 - Follow the executed workflow in [pipeline.ipynb](pipeline.ipynb)
 
 ## 2. Workflow
