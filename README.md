@@ -47,6 +47,9 @@ AI-powered pipeline to create marketing video from product image.
   - StableDiffusionXLInpaintPipeline: [OzzyGT/RealVisXL_V4.0_inpainting](https://huggingface.co/OzzyGT/RealVisXL_V4.0_inpainting)
 
 - Sample:
+  - Prompt: `A sleek, modern ad showcasing luxury watches in a futuristic cityscape`
+  - Negative prompt: `bad quality, worst quality, low resolution`
+
 <img src="https://github.com/user-attachments/assets/8cb4ecc2-1557-4bf6-921e-2a839872527f" width="60%">
 
 ### 2.3 Generate video
