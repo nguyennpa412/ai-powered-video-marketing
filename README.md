@@ -21,9 +21,9 @@ AI-powered pipeline to create marketing video from product image.
 
 | Input image | Enhanced image |
 |:-----------:|:--------------:|
-| ![](assets/0_sample_input_1024.png) | ![](assets/1_enhanced_image.png) |
+| ![0_sample_input_1024](https://github.com/user-attachments/assets/4e4a065e-d427-4f24-acdd-efe573f8f14b) | ![1_enhanced_image](https://github.com/user-attachments/assets/030bcb27-95b9-43b1-b154-feeb5930b6cb) |
 
-> Diff: ![](assets/1_enhanced_diff.png)
+> Diff: ![1_enhanced_diff](https://github.com/user-attachments/assets/98734092-af74-4688-8bdf-3259f0319285)
 
 ### 2.2 Generate scene
 
@@ -36,14 +36,22 @@ AI-powered pipeline to create marketing video from product image.
   - StableDiffusionXLControlNetPipeline: [SG161222/RealVisXL_V4.0](https://huggingface.co/SG161222/RealVisXL_V4.0)
   - StableDiffusionXLInpaintPipeline: [OzzyGT/RealVisXL_V4.0_inpainting](https://huggingface.co/OzzyGT/RealVisXL_V4.0_inpainting)
 
-- Sample: ![](assets/2_generated_scene.png)
+- Sample:
+<img src="https://github.com/user-attachments/assets/8cb4ecc2-1557-4bf6-921e-2a839872527f" width="60%">
 
 ### 2.3 Generate video
 
 - Tech stacks:
   - Stable Video Diffusion (SVD): [stabilityai/stable-video-diffusion-img2vid-xt-1-1](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt-1-1)
 
-- Sample:
+- Sample mp4:
+
+https://github.com/user-attachments/assets/d2e0ae19-ee43-42c4-a19a-06319c263896
+
+- Sample gif:
+
+![3_generated_video](https://github.com/user-attachments/assets/7561be26-bdd6-4ab6-ae68-e4519ae6ba20)
+
 
 ## References
 
